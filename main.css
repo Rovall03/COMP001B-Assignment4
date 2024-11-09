@@ -1,3 +1,7 @@
-p{color:antiquewhite;}
-h1{color: bisque;}
-body{background-image: url(img/bake1.jpg);background-size: 100%;}
+body{background-image: url(img/bake1.jpg);background-size: 100%;
+}
+p{color:antiquewhite; float: left;
+}
+h1,h2{color: rgb(227, 171, 101);
+}
+ul{color: bisque; float: left;}
