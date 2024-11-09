@@ -1,7 +1,49 @@
 body{background-image: url(img/bake1.jpg);background-size: 100%;
+
+
+  
+      font-family: "Edu AU VIC WA NT Pre", cursive;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    
+
 }
-p{color:antiquewhite; float: left;
+
+.p{background-color: rgb(168, 136, 94)}
+
+p{margin: 10px;padding: 20px;
+    ;width: 50%;
+    color:antiquewhite; font-weight: 600; line-height: 120%;
 }
-h1,h2{color: rgb(227, 171, 101);
+h1{font-size: xx-large;
+    color: rgb(255, 207, 148); margin: 1em;padding: 20px;}
+
+    h2{font-size: x-large;
+    color: rgb(227, 171, 101);padding: 20px;
 }
-ul{color: bisque; float: left;}
+
+ul{font-weight: 700; font-size: larger;
+    border: 4px solid rgb(213, 169, 130);
+    padding: 30px; color: bisque; background-color: rgba(67, 37, 13, 0.414);width: 40%;}
+
+    footer{ margin: 10px;
+    text-align: left; position: fixed; bottom: 0; left: 0;}
+
+
+    img{border: 10px solid #2e1c05a6;
+    float: left;height: 40%; width: 40%;padding: 5px;}
+
+    main{float: right;width: 50%;}
+
+    li{margin: 10px;}
+    
+ #nav li{float: left;}
+
+#nav{list-style-type: none; margin: 10; padding: 0;}
+
+li a{display:block; }
+
+a{padding: 10px;   background-color: rgba(212, 169, 112, 0.748);color: rgb(95, 68, 32);}
+
+a:hover{background-color: antiquewhite;}
